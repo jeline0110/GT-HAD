@@ -4,7 +4,7 @@ This is an official implementation of GT-AD: Gated Transformer for Hyperspectral
 
 Framework of GT-AD:
 
-<img src="framework.pdf" width=170 height=170>
+<img src="framework.png">
 
 ### 1. Comparison Methods 
 
