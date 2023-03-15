@@ -4,7 +4,7 @@ This is an official implementation of GT-AD: Gated Transformer for Hyperspectral
 
 Framework of GT-AD:
 
-## 1. Comparison Methods 
+### 1. Comparison Methods 
 
 In addition to GT-AD, this repo includes the code implementation of the following anomaly detection methods.
 
