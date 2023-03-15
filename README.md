@@ -8,7 +8,7 @@ Framework of GT-AD:
 
 ### 1. Comparison Methods 
 
-In addition to GT-AD, this repo includes the code implementation of the following anomaly detection methods.
+- In addition to GT-AD, this repo includes the code implementation of the following anomaly detection methods.
 
 <details open>
 <summary><b>Supported algorithms:</b></summary>
@@ -22,7 +22,8 @@ In addition to GT-AD, this repo includes the code implementation of the followin
 * [x] [Auto-AD](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382262) [![](https://img.shields.io/badge/-Github-blue)](https://github.com/RSIDEA-WHU2020/Auto-AD)
 * [x] [LREN](https://ojs.aaai.org/index.php/AAAI/article/view/16536)  [![](https://img.shields.io/badge/-Github-blue)](https://github.com/xdjiangkai/LREN)
 
-All comparison methods have been reorganized, and they have unified output format of detection results. DNN-based methods are available in `GT-AD/dnnmethods`, and non-DNN methods are available in `GT-AD/non-dnnmethods`.
+- All comparison methods have been reorganized, and they have unified output format of detection results. DNN-based methods are available in `GT-AD/dnnmethods`, and non-DNN methods are available in `GT-AD/non-dnnmethods`.
 
-Besides, we also provide the original codes in `GT-AD/original-codes`.
-Note: are available in 
+- Besides, we also provide the original codes in `GT-AD/original-codes`.
+
+- Note: are available in 
