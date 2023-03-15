@@ -24,6 +24,6 @@ In addition to GT-AD, this repo includes the code implementation of the followin
 
 All comparison methods have been reorganized, and they have unified output format of detection results. DNN-based methods are available in `GT-AD/dnnmethods`, and non-DNN methods are available in `GT-AD/non-dnnmethods`.
 
-Besides, we also provide the original codes in `GT-AD/original-codes`.
+Besides, we also provide their original codes in `GT-AD/original-codes`.
 
 Note: are available in 
