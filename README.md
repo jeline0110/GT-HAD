@@ -59,9 +59,7 @@ Datasets are available in `GT-AD/data`.
 
 ### 4. Running Experiments:
 #### 4.1 DNN-based Methods:
-
 ```shell
-
 # Auto-AD
 cd GT-AD/dnnmethods/Auto-AD/
 python main.py 
@@ -76,9 +74,7 @@ python main.py
 ```
 
 #### 4.2 non-DNN Methods:
-
 ```shell
-
 # RX
 locate GT-AD/non-dnnmethods/RX/
 run run.m 
@@ -102,5 +98,4 @@ run run.m
 # PCA-TLRSR
 locate GT-AD/non-dnnmethods/PCA-TLRSR/
 run run.m
-
 ```
