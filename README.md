@@ -23,10 +23,9 @@ In addition to GT-AD, this repo includes the code implementation of the followin
 * [x] [LREN](https://ojs.aaai.org/index.php/AAAI/article/view/16536)  [![](https://img.shields.io/badge/-Github-blue)](https://github.com/xdjiangkai/LREN)
 
 Besides, we also provide their original codes in `GT-AD/original-codes`.
-Note: 
 - RX, CRD, and 2S-GLRT are available in `GT-AD/original-codes/2S-GLRT.zip`. 
 - KIFD is available in `GT-AD/original-codes/KIFD.zip`.
-- GTVLRR is available in `GT-AD/original-codes/GTVLRR.zip`.
+- GTVLRR is available in `GT-AD/original-codes/PTA.zip`.
 - PCA-TLRSR is available in `GT-AD/original-codes/PCA-TLRSRT.zip`.
 - Auto-AD is available in `GT-AD/original-codes/Auto-AD.zip`.
 - LREN is available in `GT-AD/original-codes/LREN.zip`.
