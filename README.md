@@ -44,7 +44,7 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - Scipy
 - Progressbar
 
-#### 2.1 non-DNN Methods:
+#### 2.2 non-DNN Methods:
 
 - MATLAB
 
@@ -122,3 +122,16 @@ The detection results will be output into `GT-AD/results/`. Take RX as an exampl
 ### 5. Citation:
 
 If this repo helps you, please consider citing our work:
+
+```shell
+```
+
+### 6. Contact:
+
+For any question, please contact:
+
+```shell
+
+lianjie@bit.edu.cn
+
+```
