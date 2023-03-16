@@ -6,12 +6,12 @@ Framework of GT-AD:
 
 <img src="framework.png" width=600 height=375>
 
-### 1. Comparison Methods 
+### 1. Comparison Methods:
 
 In addition to GT-AD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-AD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, CRD, GTVLRR, PCA-TLRSR) are available in `GT-AD/non-dnnmethods`.
 
 <details open>
-<summary><b>Supported algorithms:</b></summary>
+<summary><b>Supported Algorithms:</b></summary>
 
 * [x] [RX](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=60107)
 * [x] [KIFD](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8833502)
@@ -31,3 +31,30 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - PCA-TLRSR is available in `GT-AD/original-codes/PCA-TLRSRT.zip`.
 - Auto-AD is available in `GT-AD/original-codes/Auto-AD.zip`.
 - LREN is available in `GT-AD/original-codes/LREN.zip`.
+
+### 2. Create Environment:
+#### 2.1 DNN-based Methods
+
+- Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
+- NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+- Tensorflow for LREN
+- Pytorch for Auto-AD and GT-AD
+- Numpy
+- Sklearn
+- Scipy
+- Progressbar
+
+#### 2.1 non-DNN Methods
+
+- MATLAB
+
+#### 2.3 Other Requirements:
+
+- Matplotlib
+- Seaborn
+
+## 3. Prepare Dataset
+
+Datasets are available in `GT-AD/data`.
+
+## 4. Running Experiments:
