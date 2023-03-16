@@ -6,7 +6,7 @@ Framework of GT-AD:
 
 <img src="framework.png" width=600 height=375>
 
-### 1. Comparison Methods:
+## 1. Comparison Methods:
 
 In addition to GT-AD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-AD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, CRD, GTVLRR, PCA-TLRSR) are available in `GT-AD/non-dnnmethods`.
 
@@ -32,8 +32,8 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - Auto-AD is available in `GT-AD/original-codes/Auto-AD.zip`.
 - LREN is available in `GT-AD/original-codes/LREN.zip`.
 
-### 2. Create Environment:
-#### 2.1 DNN-based Methods:
+## 2. Create Environment:
+### 2.1 DNN-based Methods:
 
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
@@ -44,16 +44,16 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - Scipy
 - Progressbar
 
-#### 2.2 non-DNN Methods:
+### 2.2 non-DNN Methods:
 
 - MATLAB
 
-#### 2.3 Other Requirements:
+### 2.3 Other Requirements:
 
 - Matplotlib
 - Seaborn
 
-### 3. Prepare Dataset:
+## 3. Prepare Dataset:
 
 Datasets are available in `GT-AD/data`.
 ```shell
@@ -67,8 +67,8 @@ Datasets are available in `GT-AD/data`.
 ```
 
 
-### 4. Experiments:
-#### 4.1 Running: 
+## 4. Experiments:
+### 4.1 Running: 
 
 - DNN-based Methods:
 
@@ -116,17 +116,17 @@ run run.m
 
 The detection results will be output into `GT-AD/results/`. Take RX as an example, RX_map.mat is used to draw color anomaly map and box-whisker plot. RX_roc.mat is used to draw ROC curve and calculate AUC.
 
-#### 4.2 Testing:
+### 4.2 Testing:
 
 
-### 5. Citation:
+## 5. Citation:
 
 If this repo helps you, please consider citing our work:
 
 ```shell
 ```
 
-### 6. Contact:
+## 6. Contact:
 
 For any question, please contact:
 
