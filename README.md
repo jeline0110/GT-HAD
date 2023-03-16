@@ -114,10 +114,36 @@ locate GT-AD/non-dnnmethods/PCA-TLRSR/
 run run.m
 ```
 
-The detection results will be output into `GT-AD/results/`. Take RX as an example, RX_map.mat is used to draw color anomaly map and box-whisker plot. RX_roc.mat is used to draw ROC curve and calculate AUC.
+The detection results will be output into `GT-AD/results/`. Take RX as an example, **RX_map.mat** is used to draw color anomaly map and box-whisker plot. **RX_roc.mat** is used to draw ROC curve and calculate AUC.
 
 ### 4.2 Testing:
 
+- Generate color anomaly map.
+
+```shell
+
+cd GT-AD/scripts/
+python heatmap.py
+
+```
+
+- Generate box-whisker plot.
+
+```shell
+
+cd GT-AD/scripts/
+python boxplot.py
+
+```
+
+- Generate ROC curve and calculate AUC.
+
+```shell
+
+cd GT-AD/scripts/
+python roc.py
+
+```
 
 ## 5. Citation:
 
