@@ -33,7 +33,7 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - LREN is available in `GT-AD/original-codes/LREN.zip`.
 
 ### 2. Create Environment:
-#### 2.1 DNN-based Methods
+#### 2.1 DNN-based Methods:
 
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
@@ -44,7 +44,7 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - Scipy
 - Progressbar
 
-#### 2.1 non-DNN Methods
+#### 2.1 non-DNN Methods:
 
 - MATLAB
 
@@ -53,8 +53,8 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - Matplotlib
 - Seaborn
 
-## 3. Prepare Dataset
+### 3. Prepare Dataset
 
 Datasets are available in `GT-AD/data`.
 
-## 4. Running Experiments:
+### 4. Running Experiments:
