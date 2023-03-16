@@ -99,3 +99,5 @@ run run.m
 locate GT-AD/non-dnnmethods/PCA-TLRSR/
 run run.m
 ```
+
+The detection results will be output into `GT-AD/results/`. Take RX as an example, RX_map.mat is used to draw color anomaly map and box-whisker plot figures. RX_roc.mat is used to draw ROC curve figure and calculate AUC score.
