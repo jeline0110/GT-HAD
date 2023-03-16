@@ -7,11 +7,10 @@ os.environ['KMP_WARNINGS'] = '0'
 
 import tensorflow as tf
 import numpy as np
-import pandas as pd
 from sklearn.datasets import make_blobs
 from datetime import datetime
 import scipy.io as sio
-import cv2
+# import cv2
 from sklearn.decomposition import PCA, KernelPCA
 from lren import LREN
 import matplotlib.pyplot as plt

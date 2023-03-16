@@ -16,7 +16,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from data import DatasetHsi
 from block import Block_fold, Block_search
-import cv2 
+# import cv2 
 
 dtype = torch.cuda.FloatTensor
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
