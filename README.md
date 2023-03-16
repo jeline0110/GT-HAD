@@ -22,6 +22,8 @@ In addition to GT-AD, this repo includes the code implementation of the followin
 * [x] [Auto-AD](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9382262) [![](https://img.shields.io/badge/-Github-blue)](https://github.com/RSIDEA-WHU2020/Auto-AD)
 * [x] [LREN](https://ojs.aaai.org/index.php/AAAI/article/view/16536)  [![](https://img.shields.io/badge/-Github-blue)](https://github.com/xdjiangkai/LREN)
 
+</details>
+  
 Besides, we also provide their original codes in `GT-AD/original-codes`.
 - RX, CRD, and 2S-GLRT are available in `GT-AD/original-codes/2S-GLRT.zip`. 
 - KIFD is available in `GT-AD/original-codes/KIFD.zip`.
