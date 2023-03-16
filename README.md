@@ -8,7 +8,7 @@ Framework of GT-AD:
 
 ### 1. Comparison Methods 
 
-In addition to GT-AD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods are available in `GT-AD/dnnmethods`, and non-DNN methods are available in `GT-AD/non-dnnmethods`.
+In addition to GT-AD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-AD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, CRD, GTVLRR, PCA-TLRSR) are available in `GT-AD/non-dnnmethods`.
 
 <details open>
 <summary><b>Supported algorithms:</b></summary>
