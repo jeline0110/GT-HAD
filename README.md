@@ -44,7 +44,7 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - Scipy
 - Progressbar
 
-### 2.2 non-DNN Methods:
+### 2.2 Non-DNN Methods:
 
 - MATLAB
 
