@@ -53,7 +53,7 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - Matplotlib
 - Seaborn
 
-### 3. Prepare Dataset
+### 3. Prepare Dataset:
 
 Datasets are available in `GT-AD/data`.
 
