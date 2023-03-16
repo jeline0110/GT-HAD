@@ -58,3 +58,49 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 Datasets are available in `GT-AD/data`.
 
 ### 4. Running Experiments:
+#### 4.1 DNN-based Methods:
+
+```shell
+
+# Auto-AD
+cd GT-AD/dnnmethods/Auto-AD/
+python main.py 
+
+# LREN
+cd GT-AD/dnnmethods/LREN/
+python main.py 
+
+# GT-AD
+cd GT-AD/dnnmethods/GT-AD/
+python main.py 
+```
+
+#### 4.2 non-DNN Methods:
+
+```shell
+
+# RX
+locate GT-AD/non-dnnmethods/RX/
+run run.m 
+
+# KIFD
+locate GT-AD/non-dnnmethods/KIFD/
+run run.m 
+
+# 2S-GLRT
+locate GT-AD/non-dnnmethods/2S-GLRT/
+run run.m 
+
+# CRD
+locate GT-AD/non-dnnmethods/CRD/
+run run.m
+
+# GTVLRR
+locate GT-AD/non-dnnmethods/GTVLRR/
+run run.m
+
+# PCA-TLRSR
+locate GT-AD/non-dnnmethods/PCA-TLRSR/
+run run.m
+
+```
