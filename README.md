@@ -56,9 +56,22 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 ### 3. Prepare Dataset:
 
 Datasets are available in `GT-AD/data`.
+```shell
+-- los-angeles-1.mat
+-- los-angeles-2.mat
+-- gulfport.mat
+-- texas-goast.mat
+-- cat-island.mat
+-- pavia.mat
 
-### 4. Running Experiments:
-#### 4.1 DNN-based Methods:
+```
+
+
+### 4. Experiments:
+#### 4.1 Running: 
+
+- DNN-based Methods:
+
 ```shell
 # Auto-AD
 cd GT-AD/dnnmethods/Auto-AD/
@@ -73,7 +86,8 @@ cd GT-AD/dnnmethods/GT-AD/
 python main.py 
 ```
 
-#### 4.2 non-DNN Methods:
+- non-DNN Methods:
+
 ```shell
 # RX
 locate GT-AD/non-dnnmethods/RX/
@@ -101,3 +115,10 @@ run run.m
 ```
 
 The detection results will be output into `GT-AD/results/`. Take RX as an example, RX_map.mat is used to draw color anomaly map and box-whisker plot. RX_roc.mat is used to draw ROC curve and calculate AUC.
+
+#### 4.2 Testing:
+
+
+### 5. Citation:
+
+If this repo helps you, please consider citing our work:
