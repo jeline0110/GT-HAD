@@ -118,7 +118,7 @@ The detection results will be output into `GT-AD/results/`. Take RX as an exampl
 
 ### 4.2 Testing:
 
-- Generate color anomaly map.
+- Generate color anomaly map:
 
 ```shell
 
@@ -127,7 +127,7 @@ python heatmap.py
 
 ```
 
-- Generate box-whisker plot.
+- Generate box-whisker plot:
 
 ```shell
 
@@ -136,7 +136,7 @@ python boxplot.py
 
 ```
 
-- Generate ROC curve and calculate AUC.
+- Generate ROC curve and calculate AUC:
 
 ```shell
 
