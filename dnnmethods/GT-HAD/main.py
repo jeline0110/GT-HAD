@@ -1,4 +1,4 @@
-# https://github.com/jeline0110/GT-AD
+# https://github.com/jeline0110/GT-HAD
 import os
 import numpy as np
 import torch
