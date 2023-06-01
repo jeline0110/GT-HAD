@@ -8,7 +8,7 @@ Framework of GT-HAD:
 
 ## 1. Comparison Methods:
 
-In addition to GT-HAD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-AD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, CRD, GTVLRR, PCA-TLRSR) are available in `GT-AD/non-dnnmethods`.
+In addition to GT-HAD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-HAD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, CRD, GTVLRR, PCA-TLRSR) are available in `GT-HAD/non-dnnmethods`.
 
 <details open>
 <summary><b>Supported Algorithms:</b></summary>
@@ -24,13 +24,13 @@ In addition to GT-HAD, this repo includes the implementation of the following an
 
 </details>
   
-Besides, we also provide their original codes in `GT-AD/original-codes`.
-- RX, CRD, and 2S-GLRT are available in `GT-AD/original-codes/2S-GLRT.zip`. 
-- KIFD is available in `GT-AD/original-codes/KIFD.zip`.
-- GTVLRR is available in `GT-AD/original-codes/PTA.zip`.
-- PCA-TLRSR is available in `GT-AD/original-codes/PCA-TLRSRT.zip`.
-- Auto-AD is available in `GT-AD/original-codes/Auto-AD.zip`.
-- LREN is available in `GT-AD/original-codes/LREN.zip`.
+Besides, we also provide their original codes in `GT-HAD/original-codes`.
+- RX, CRD, and 2S-GLRT are available in `GT-HAD/original-codes/2S-GLRT.zip`. 
+- KIFD is available in `GT-HAD/original-codes/KIFD.zip`.
+- GTVLRR is available in `GT-HAD/original-codes/PTA.zip`.
+- PCA-TLRSR is available in `GT-HAD/original-codes/PCA-TLRSRT.zip`.
+- Auto-AD is available in `GT-HAD/original-codes/Auto-AD.zip`.
+- LREN is available in `GT-HAD/original-codes/LREN.zip`.
 
 ## 2. Create Environment:
 ### 2.1 DNN-based Methods:
@@ -55,7 +55,7 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 
 ## 3. Prepare Dataset:
 
-Datasets are available in `GT-AD/data`.
+Datasets are available in `GT-HAD/data`.
 ```shell
 -- los-angeles-1.mat
 -- los-angeles-2.mat
@@ -74,11 +74,11 @@ Datasets are available in `GT-AD/data`.
 
 ```shell
 # Auto-AD
-cd GT-AD/dnnmethods/Auto-AD/
+cd GT-HAD/dnnmethods/Auto-AD/
 python main.py 
 
 # LREN
-cd GT-AD/dnnmethods/LREN/
+cd GT-HAD/dnnmethods/LREN/
 python main.py 
 
 # GT-HAD
@@ -90,31 +90,31 @@ python main.py
 
 ```shell
 # RX
-locate GT-AD/non-dnnmethods/RX/
+locate GT-HAD/non-dnnmethods/RX/
 run run.m 
 
 # KIFD
-locate GT-AD/non-dnnmethods/KIFD/
+locate GT-HAD/non-dnnmethods/KIFD/
 run run.m 
 
 # 2S-GLRT
-locate GT-AD/non-dnnmethods/2S-GLRT/
+locate GT-HAD/non-dnnmethods/2S-GLRT/
 run run.m 
 
 # CRD
-locate GT-AD/non-dnnmethods/CRD/
+locate GT-HAD/non-dnnmethods/CRD/
 run run.m
 
 # GTVLRR
-locate GT-AD/non-dnnmethods/GTVLRR/
+locate GT-HAD/non-dnnmethods/GTVLRR/
 run run.m
 
 # PCA-TLRSR
-locate GT-AD/non-dnnmethods/PCA-TLRSR/
+locate GT-HAD/non-dnnmethods/PCA-TLRSR/
 run run.m
 ```
 
-The detection results will be output into `GT-AD/results/`. Take RX as an example, **RX_map.mat** is used to draw color anomaly map and box-whisker plot, and **RX_roc.mat** is used to draw ROC curve and calculate AUC.
+The detection results will be output into `GT-HAD/results/`. Taking RX as an example, **RX_map.mat** is used to draw color anomaly map and box-whisker plot, and **RX_roc.mat** is used to draw ROC curve and calculate AUC.
 
 ### 4.2 Testing:
 
@@ -122,7 +122,7 @@ The detection results will be output into `GT-AD/results/`. Take RX as an exampl
 
 ```shell
 
-cd GT-AD/scripts/
+cd GT-HAD/scripts/
 python heatmap.py
 
 ```
@@ -131,7 +131,7 @@ python heatmap.py
 
 ```shell
 
-cd GT-AD/scripts/
+cd GT-HAD/scripts/
 python boxplot.py
 
 ```
@@ -140,7 +140,7 @@ python boxplot.py
 
 ```shell
 
-cd GT-AD/scripts/
+cd GT-HAD/scripts/
 python roc.py
 
 ```
