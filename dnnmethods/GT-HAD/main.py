@@ -134,9 +134,9 @@ def main(file):
             print("Runtime：%.2f" % (end - start)) 
             # save results
             fpr, tpr, thre = roc_curve(gt.flatten(), residual_np.flatten())
-            map_path = os.path.join(save_subdir, "GT-AD_map.mat")
+            map_path = os.path.join(save_subdir, "GT-HAD_map.mat")
             sio.savemat(map_path, {'show': residual_np})
-            roc_path = os.path.join(save_subdir, "GT-AD_roc.mat")
+            roc_path = os.path.join(save_subdir, "GT-HAD_roc.mat")
             sio.savemat(roc_path, {'PD': tpr, 'PF': fpr})
 
             return
