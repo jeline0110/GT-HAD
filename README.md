@@ -1,14 +1,14 @@
-# GT-AD
+# GT-HAD
 
-This is an official implementation of GT-AD: Gated Transformer for Hyperspectral Anomaly Detection.
+This is an official implementation of GT-HAD: Gated Transformer for Hyperspectral Anomaly Detection.
 
-Framework of GT-AD:
+Framework of GT-HAD:
 
 <img src="framework.png" width=600 height=375>
 
 ## 1. Comparison Methods:
 
-In addition to GT-AD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-AD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, CRD, GTVLRR, PCA-TLRSR) are available in `GT-AD/non-dnnmethods`.
+In addition to GT-HAD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-AD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, CRD, GTVLRR, PCA-TLRSR) are available in `GT-AD/non-dnnmethods`.
 
 <details open>
 <summary><b>Supported Algorithms:</b></summary>
@@ -38,7 +38,7 @@ Besides, we also provide their original codes in `GT-AD/original-codes`.
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
 - Tensorflow for LREN
-- Pytorch for Auto-AD and GT-AD
+- Pytorch for Auto-AD and GT-HAD
 - Numpy
 - Sklearn
 - Scipy
@@ -81,8 +81,8 @@ python main.py
 cd GT-AD/dnnmethods/LREN/
 python main.py 
 
-# GT-AD
-cd GT-AD/dnnmethods/GT-AD/
+# GT-HAD
+cd GT-HAD/dnnmethods/GT-HAD/
 python main.py 
 ```
 
