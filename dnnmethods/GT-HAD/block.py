@@ -42,7 +42,7 @@ class Block_embedding(nn.Module):
     def forward(self, x):
         _, band, row, col = x.size()
         
-        # patch oder: from left to right, and from top to down
+        # blocks oder: from left to right, and from top to down
         blocks, paddings = self.extract_image_blocks(x, ksizes=[self.ksize, self.ksize],
                     strides=[self.stride, self.stride],) # batch=1, c*h*w, num
         blocks = blocks.squeeze(0).permute(1, 0) # num, l=c*h*w
@@ -82,7 +82,7 @@ class Block_fold(nn.Module):
 
         return out
 
-# the implement of H-BMM in the paper
+# the implement of CMM in the paper
 class Block_search(nn.Module):
     def __init__(self, x_ori, wsize=15, wstride=5):
         super(Block_search, self).__init__()
