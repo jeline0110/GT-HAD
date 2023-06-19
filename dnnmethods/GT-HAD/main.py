@@ -100,7 +100,7 @@ def main(file):
             loss.backward()
             optimizer.step()
         
-        # H-BMM
+        # CMM
         if search_flag:
             match_vec = torch.zeros((data_num)).type(dtype) # reset match_vec
             search_back = block_fold(search_matrix.detach(), data_set.padding, row, col)
