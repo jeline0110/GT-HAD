@@ -90,10 +90,10 @@ class TransformerBlock(nn.Module):
             act_layer=nn.GELU, norm_layer=nn.LayerNorm, attn_drop=0., drop=0.):
         super().__init__()
 
-        # GateFormer: G-FUM
+        # GTB: GDBN
         self.norm1 = norm_layer(dim)
         self.attn = Attention(dim, patch_size=patch_size, patch_stride=patch_stride, attn_drop=attn_drop)
-        # GateFormer: FFN
+        # GTB: FFN
         self.norm2 = norm_layer(dim)
         mlp_hidden_dim = int(dim * mlp_ratio)
         self.mlp = Mlp(in_features=dim, hidden_features=mlp_hidden_dim, act_layer=act_layer, drop=drop)
@@ -102,7 +102,7 @@ class TransformerBlock(nn.Module):
         B, H, W, C = x.shape
         x = x.view(B, H * W, C)
         x = self.norm1(x)
-        # G-FUM
+        # GDBN
         x = x.view(B, H, W, C)
         x = self.attn(x, block_idx=block_idx, match_vec=match_vec)
         # FFN
