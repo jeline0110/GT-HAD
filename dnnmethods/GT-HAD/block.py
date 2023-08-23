@@ -62,12 +62,12 @@ class Block_fold(nn.Module):
         back = x.view(num, -1).permute(1, 0).unsqueeze(0) # batch=1, c*h*w, num
 
         # judge padding value
-        block_size1 = (row + 2 * paddings[0] - (self.ksize - 1) - 1) / self.stride + 1
-        block_size2 = (col + 2 * paddings[1] - (self.ksize - 1) - 1) / self.stride + 1
+        block_size1 = (row + 2 * paddings[2] - (self.ksize - 1) - 1) / self.stride + 1
+        block_size2 = (col + 2 * paddings[0] - (self.ksize - 1) - 1) / self.stride + 1
         if block_size1 * block_size2 != num:
-            pad = [paddings[1], paddings[3]]
+            pad = [paddings[3], paddings[1]]
         else:
-            pad = [paddings[0], paddings[2]]
+            pad = [paddings[2], paddings[0]]
 
         try:
             ori = F.fold(back, (row, col), (self.ksize, self.ksize), padding=pad, stride=self.stride)
