@@ -150,6 +150,7 @@ python roc.py
 If this repo helps you, please consider citing our work:
 
 ```shell
+The relevant paper has not been published yet, please wait patiently for the publication.
 ```
 
 ## 6. Contact:
