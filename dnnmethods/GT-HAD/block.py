@@ -24,6 +24,9 @@ class Block_embedding(nn.Module):
         padding_left = int(padding_cols / 2.)
         padding_bottom = padding_rows - padding_top
         padding_right = padding_cols - padding_left
+        # The padding size by which to pad some dimensions of input 
+        # are described starting from the last dimension and moving forward.
+        # For example, to pad only the last dimension of the input tensor, then pad has the form (padding_left,padding_right)
         paddings = (padding_left, padding_right, padding_top, padding_bottom)
         images = F.pad(images, paddings, mode='replicate') # replicate reflect 
 
