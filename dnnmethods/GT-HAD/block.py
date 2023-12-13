@@ -3,8 +3,7 @@ import torch.nn.functional as F
 import torch.nn as nn 
 import pdb
 
-# adopt a sliding window to partition the HSI into N overlapped HSI blocks
-# the term 'blocks' corresponds to the term 'cubes' in the paper
+# adopt a sliding window to partition the HSI into N overlapped HSI blocks (cubes)
 class Block_embedding(nn.Module):
     def __init__(self, wsize=15, wstride=5):
         super(Block_embedding, self).__init__()
