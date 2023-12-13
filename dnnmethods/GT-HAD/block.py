@@ -113,7 +113,7 @@ class Block_search(nn.Module):
         dis_map = self.matrix_get_dis(block_key, self.block_query)
         _, index = torch.topk(dis_map, 1, dim=1, largest=False, sorted=True) 
         index = index.squeeze()
-        # the implement of eq(10) in the paper
+        # change the gating state 
         flag = (index == idx).int()
         match_vec[flag == 1] = 1
 
