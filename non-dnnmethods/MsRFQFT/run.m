@@ -35,5 +35,5 @@ result = MsRFQFT(data,sigma);
 disp(['Auc:',num2str(auc_pdpf)])
 
 show=result;
-save([save_dir,'GEVE_map.mat'],'show')
-save([save_dir,'GEVE_roc.mat'],'PD','PF')
+save([save_dir,'MsRFQFT_map.mat'],'show')
+save([save_dir,'MsRFQFT_roc.mat'],'PD','PF')
