@@ -30,7 +30,7 @@ Besides, we also provide their original codes in `GT-HAD/original-codes`.
 - RX, CRD, and 2S-GLRT are available in `GT-HAD/original-codes/2S-GLRT.zip`. 
 - KIFD is available in `GT-HAD/original-codes/KIFD.zip`.
 - MsRFQFT is available in `GT-HAD/original-codes/MsRFQFT.zip`.
-- GTVLRR, PTA is available in `GT-HAD/original-codes/PTA.zip`.
+- GTVLRR, PTA are available in `GT-HAD/original-codes/PTA.zip`.
 - PCA-TLRSR is available in `GT-HAD/original-codes/PCA-TLRSRT.zip`.
 - Auto-AD is available in `GT-HAD/original-codes/Auto-AD.zip`.
 - LREN is available in `GT-HAD/original-codes/LREN.zip`.
