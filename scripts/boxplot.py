@@ -20,7 +20,7 @@ def del_zero(x):
 
     return y
 
-method_list = ['RX', 'KIFD', '2S-GLRT', 'CRD', 'GTVLRR', 'PCA-TLRSR', 'Auto-AD', 'LREN', 'GT-HAD']
+method_list = ['RX', 'KIFD', '2S-GLRT', 'MsRFQFT', 'CRD', 'GTVLRR', 'PTA', 'PCA-TLRSR', 'Auto-AD', 'LREN', 'GT-HAD']
 file_list =  ['los-angeles-1', 'los-angeles-2', 'gulfport', 'texas-goast', 'cat-island', 'pavia']
 for file in file_list:
     gt_path = os.path.join(gt_dir, file + '.mat')

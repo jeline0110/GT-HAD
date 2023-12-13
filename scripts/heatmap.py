@@ -17,7 +17,7 @@ def heatmap(img, save_name):
     _plt.figure.savefig(save_name, format='pdf', bbox_inches='tight', pad_inches=0.0)
     plt.close()
 
-method_list = ['RX', 'KIFD', '2S-GLRT', 'CRD', 'GTVLRR', 'PCA-TLRSR', 'Auto-AD', 'LREN', 'GT-HAD']
+method_list = ['RX', 'KIFD', '2S-GLRT', 'MsRFQFT', 'CRD', 'GTVLRR', 'PTA', 'PCA-TLRSR', 'Auto-AD', 'LREN', 'GT-HAD']
 file_list =  ['los-angeles-1', 'los-angeles-2', 'gulfport', 'texas-goast', 'cat-island', 'pavia']
 for file in file_list:
     mat_dir = os.path.join('../results/', file)

@@ -7,10 +7,10 @@ import numpy as np
 
 save_dir = '../roc/'
 if not os.path.exists(save_dir):
-        os.makedirs(save_dir)
+    os.makedirs(save_dir)
 
-color_list = ['b', 'c', 'g', 'k', 'm', 'slategray', 'orange', 'y', 'r']
-method_list = ['RX', 'KIFD', '2S-GLRT', 'CRD', 'GTVLRR', 'PCA-TLRSR', 'Auto-AD', 'LREN', 'GT-HAD']
+color_list = ['b', 'c', 'g', 'lawngreen', 'k', 'm', 'pink', 'slategray', 'orange', 'y', 'r']
+method_list = ['RX', 'KIFD', '2S-GLRT', 'MsRFQFT', 'CRD', 'GTVLRR', 'PTA', 'PCA-TLRSR', 'Auto-AD', 'LREN', 'GT-HAD']
 file_list =  ['los-angeles-1', 'los-angeles-2', 'gulfport', 'texas-goast', 'cat-island', 'pavia']
 for file in file_list:
     method_dict = {}
