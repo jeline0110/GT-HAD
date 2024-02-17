@@ -161,7 +161,12 @@ python roc.py
 If this repo helps you, please consider citing our work:
 
 ```shell
-The paper has not been published yet, please wait patiently for the publication.
+@article{gt-had,
+  title={GT-HAD: Gated Transformer for Hyperspectral Anomaly Detection},
+  author={Jie Lian and Lizhi Wang and He Sun and Hua Huang},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2024}
+}
 ```
 
 ## 6. Contact:
