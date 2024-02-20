@@ -160,7 +160,7 @@ python roc.py
 
 If this repo helps you, please consider citing our work:
 
-```shell
+```
 @article{gt-had,
   title={GT-HAD: Gated Transformer for Hyperspectral Anomaly Detection},
   author={Jie Lian and Lizhi Wang and He Sun and Hua Huang},
@@ -173,7 +173,7 @@ If this repo helps you, please consider citing our work:
 
 For any question, please contact:
 
-```shell
+```
 
 lianjie@bit.edu.cn
 
