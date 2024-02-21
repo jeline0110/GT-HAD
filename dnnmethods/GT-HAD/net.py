@@ -27,7 +27,6 @@ class Attention(nn.Module):
         self.psize = patch_size
         self.pstride = patch_stride  # Wh, Ww
 
-        self.dis = torch.nn.PairwiseDistance(p=2, keepdim=True)
         self.attn_drop = nn.Dropout(attn_drop)
         self.softmax = nn.Softmax(dim=-1)
 
