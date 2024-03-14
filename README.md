@@ -9,7 +9,7 @@
 ## Network Architecture
 <img src="framework.png" width=600 height=375>
 
-## Comparison with State-of-the-art Methods:
+## Comparison Methods:
 
 In addition to GT-HAD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-HAD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, MsRFQFT, CRD, GTVLRR, PTA, PCA-TLRSR) are available in `GT-HAD/non-dnnmethods`.
 
