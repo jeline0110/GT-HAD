@@ -1,5 +1,5 @@
 # GT-HAD: Gated Transformer for Hyperspectral Anomaly Detection (IEEE TNNLS)
-### Jie Lian, Lizhi Wang[!(https://img.shields.io/badge/google-scholar-yellow)](https://scholar.google.com.hk/citations?hl=zh-CN&user=FEprmwYAAAAJ), He Sun, [Hua Huang](https://scholar.google.com.hk/citations?hl=zh-CN&user=EplUB7oAAAAJ&view_op=list_works&sortby=pubdate)
+### Jie Lian, Lizhi Wang [![](https://img.shields.io/badge/google-scholar-yellow)](https://scholar.google.com.hk/citations?hl=zh-CN&user=FEprmwYAAAAJ), He Sun, [Hua Huang](https://scholar.google.com.hk/citations?hl=zh-CN&user=EplUB7oAAAAJ&view_op=list_works&sortby=pubdate)
 
 <hr />
 
