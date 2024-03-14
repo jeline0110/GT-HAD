@@ -9,7 +9,7 @@
 ## Network Architecture
 <img src="framework.png" width=600 height=375>
 
-## 1. Comparison Methods:
+## Comparison with State-of-the-art Methods:
 
 In addition to GT-HAD, this repo includes the implementation of the following anomaly detection methods. DNN-based methods (Auto-AD, LREN) are available in `GT-HAD/dnnmethods`, and non-DNN methods (RX, KIFD, 2S-GLRT, MsRFQFT, CRD, GTVLRR, PTA, PCA-TLRSR) are available in `GT-HAD/non-dnnmethods`.
 
@@ -38,8 +38,8 @@ Besides, we also provide their original codes in `GT-HAD/original-codes`.
 - Auto-AD is available in `GT-HAD/original-codes/Auto-AD.zip`.
 - LREN is available in `GT-HAD/original-codes/LREN.zip`.
 
-## 2. Create Environment:
-### 2.1 DNN-based Methods:
+## 1. Create Environment:
+### 1.1 DNN-based Methods:
 
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
@@ -50,16 +50,16 @@ Besides, we also provide their original codes in `GT-HAD/original-codes`.
 - Scipy
 - Progressbar
 
-### 2.2 Non-DNN Methods:
+### 1.2 Non-DNN Methods:
 
 - MATLAB
 
-### 2.3 Other Requirements:
+### 1.3 Other Requirements:
 
 - Matplotlib
 - Seaborn
 
-## 3. Prepare Dataset:
+## 2. Prepare Dataset:
 
 Datasets are available in `GT-HAD/data`.
 ```shell
@@ -73,8 +73,8 @@ Datasets are available in `GT-HAD/data`.
 ```
 
 
-## 4. Experiments:
-### 4.1 Running: 
+## 3. Experiments:
+### 3.1 Running: 
 
 - DNN-based Methods:
 
@@ -130,7 +130,7 @@ run run.m
 
 The detection results will be output into `GT-HAD/results/`. Taking RX as an example, **RX_map.mat** is used to draw color anomaly map and box-whisker plot, and **RX_roc.mat** is used to draw ROC curve and calculate AUC.
 
-### 4.2 Testing:
+### 3.2 Testing:
 
 - Generate color anomaly map:
 
@@ -159,7 +159,7 @@ python roc.py
 
 ```
 
-## 5. Citation:
+## 4. Citation:
 
 If this repo helps you, please consider citing our work:
 
@@ -172,7 +172,7 @@ If this repo helps you, please consider citing our work:
 }
 ```
 
-## 6. Contact:
+## 5. Contact:
 
 For any question, please contact:
 
