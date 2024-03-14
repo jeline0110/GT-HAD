@@ -1,9 +1,7 @@
-# GT-HAD
+# GT-HAD: Gated Transformer for Hyperspectral Anomaly Detection (IEEE TNNLS)
+Jie Lian, Lizhi Wang, He Sun, Hua Huang
 
-This is an official implementation of GT-HAD: Gated Transformer for Hyperspectral Anomaly Detection.
-
-Framework of GT-HAD:
-
+## Network Architecture
 <img src="framework.png" width=600 height=375>
 
 ## 1. Comparison Methods:
