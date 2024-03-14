@@ -1,7 +1,8 @@
 # GT-HAD: Gated Transformer for Hyperspectral Anomaly Detection (IEEE TNNLS)
-## Jie Lian, [Lizhi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=FEprmwYAAAAJ), He Sun, Hua Huang
+### Jie Lian, [Lizhi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=FEprmwYAAAAJ), He Sun, [Hua Huang](https://scholar.google.com.hk/citations?hl=zh-CN&user=EplUB7oAAAAJ&view_op=list_works&sortby=pubdate)
 
 <hr />
+
 > **Abstract:** *Hyperspectral anomaly detection (HAD) aims to distinguish between the background and anomalies in a scene, which has been widely adopted in various applications. Deep neural network (DNN)-based methods have emerged as the predominant solution, wherein the standard paradigm is to discern the background and anomalies based on the error of self-supervised hyperspectral image (HSI) reconstruction. However, current DNN-based methods cannot guarantee correspon- dence between the background, anomalies, and reconstruction error, which limits the performance of HAD. In this arti- cle, we propose a novel gated transformer network for HAD (GT-HAD). Our key observation is that the spatial–spectral sim- ilarity in HSI can effectively distinguish between the background and anomalies, which aligns with the fundamental definition of HAD. Consequently, we develop GT-HAD to exploit the spatial–spectral similarity during HSI reconstruction. GT-HAD consists of two distinct branches that model the features of the background and anomalies, respectively, with content similarity as constraints. Furthermore, we introduce an adaptive gating unit to regulate the activation states of these two branches based on a content-matching method (CMM). Extensive experimental results demonstrate the superior performance of GT-HAD.*
 <hr />
 
